@@ -14,9 +14,9 @@ export const Header = (props) => {
   const avatar = siteInfo?.icon || BLOG.AVATAR
 
   return (
-        <header className="text-center justify-between items-center px-6 bg-white h-80 dark:bg-black relative z-10">
-            <div className="float-none inline-block py-12">
-                <Link href='https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc8ca4a3f-09ee-4d2b-bd25-02039dde31f4%2F3bb176ac9f143f8cc175f6406510075f.jpeg?table=block&id=ed410d7a-39c1-40dc-923d-6103e50de3c9'>
+        <header className="text-center justify-between items-center px-6 bg-white h-50 dark:bg-black relative z-10">
+            <div className="float-none inline-block py-2">
+                <Link href='/'>
                     {/* 可使用一张单图作为logo */}
                     <div className='flex space-x-6'>
                         <div className='hover:rotate-45 hover:scale-125 transform duration-200 cursor-pointer'>
