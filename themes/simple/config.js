@@ -2,9 +2,9 @@ const CONFIG = {
 
   LOGO_IMG: '/Logo.webp',
   TOP_BAR: true, // 显示顶栏
-  TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
+  TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '2222222222222222',
   LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>1<br/>2<br/>3</div>',
-  AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#',
+  AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#111111111111111111111',
 
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
